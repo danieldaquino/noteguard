@@ -1,4 +1,5 @@
 use noteguard::filters::RateLimit;
+use noteguard::filters::PushNotify;
 use noteguard::{Action, InputMessage, NoteFilter, OutputMessage};
 use serde::de::DeserializeOwned;
 use serde::Deserialize;
